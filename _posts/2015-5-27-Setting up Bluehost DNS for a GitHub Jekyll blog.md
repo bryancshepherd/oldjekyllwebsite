@@ -32,14 +32,14 @@ Select the appropriate domain from the drop down menu
 In the 'Add DNS Record' form do one of two things, depending on your CNAME edit (do not do both!)
 
 
-1. If you used 'www' in your CNAME file
+* If you used 'www' in your CNAME file
   1. Enter 'www' in the 'Host Record' field
   2. Select 'CNAME' from the 'Type' drop down
   3. Enter your GitHub user page repo name, e.g., `<username>.github.io` in the 'Points To' field
   4. Leave all other fields at their defaults and click 'add record
   
   
-2. If you did not use 'www' in your CNAME file
+* If you did not use 'www' in your CNAME file
   1. Under the 'A (Host)' DNS settings, delete any existing '@' host records
   2. In the 'Add DNS Record' form, enter your URL, without 'www' in the 'Host Record' field, e.g. 'yoururl.com'
   3. Leave (or select) 'Type' as 'A'
