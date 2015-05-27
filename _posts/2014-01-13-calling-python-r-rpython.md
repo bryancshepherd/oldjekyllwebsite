@@ -16,7 +16,7 @@ After you've completed those steps, it's as easy as writing your Python script a
 
 First create a Python script that imports the praw module and does the first data call:
 
-[python]
+```python
 import praw
 
 # Set the user agent information
@@ -29,19 +29,21 @@ new_subs = r.get_new(limit=100)
 
 # Get the data and put it into a usable format
 new_subs=[str(x) for x in new_subs]
-[/python]
+```
 
 Since the Python session is persistent, we can also create a shorter Python script that we can use to fetch updated data without reimporting the praw module
-[python]
+
+```python
 # Create a (lazy) generator that will get the data when we call it below
 new_subs = r.get_new(limit=100)
 
 # Get the data and create a list of strings
 new_subs=[str(x) for x in new_subs]
-[/python]
+```
 
 Finally, some R code that calls the Python script and gets the data from the Python variables we create:
-[sourcecode language="r"]
+
+```r
 library(rPython)
 
 # Load/run the main Python script
@@ -57,14 +59,13 @@ python.load(&quot;RefreshNewSubs.py&quot;)
 new_subs_data &lt;- python.get(&quot;new_subs&quot;)
 
 head(new_subs_data)
-[/sourcecode]
+```
 
-<h2>A few final notes:</h2>
+#### A few final notes:
 
-<ul>
-	<li>The main drawback to the rPython package is that it currently doesn't run on Windows. The developer (Carlos J. Gil Bellosta) is working to fix this, though. If that wrinkle gets resolved, I can see this being a very popular package.</li>
-	<li>You can use RStudio to write your Python programs, which is easier than switching to another IDE for simple scripts. However, it causes an issue with EOL characters. Namely, you need to add a blank line at the end of each .py file to get it to load properly.</li>
-	<li>The Python session rPython initiates is associated with the R session. Any Python modules you load or variables you create will be available until you remove them or close the R session.</li>
-</ul>
+* The main drawback to the rPython package is that it currently doesn't run on Windows. The developer (Carlos J. Gil Bellosta) is working to fix this, though. If that wrinkle gets resolved, I can see this being a very popular package.
+* You can use RStudio to write your Python programs, which is easier than switching to another IDE for simple scripts. However, it causes an issue with EOL characters. Namely, you need to add a blank line at the end of each .py file to get it to load properly.
+* The Python session rPython initiates is associated with the R session. Any Python modules you load or variables you create will be available until you remove them or close the R session.
+
 
 
