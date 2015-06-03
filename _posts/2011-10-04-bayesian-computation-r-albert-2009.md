@@ -8,9 +8,7 @@ categories: [Book reviews]
 ---
 
 
-<div style="float:right; background-color: lightblue; border: 1px solid darkblue; padding:5px; margin: 2px; width: 325px;"><strong>Title:</strong> Bayesian Computation with R<br /><strong>Author(s):</strong> Jim Albert<br /><strong>Publisher/Date:</strong> Springer/2009<br /><strong>Statistics level:</strong> High <br /><strong>Programming level:</strong> Low <br /><strong>Overall recommendation:</strong>  Recommended</div>
-
-<em>Bayesian Computation with R</em> focuses primarily on providing the reader with a basic understanding of Bayesian thinking and the relevant analytic tools included in R. It does not explore either of those areas in detail, though it does hit the key points for both.
+<div style="float:right; background-color: lightblue; border: 1px solid darkblue; padding:5px; margin: 2px; width: 325px;"><strong>Title:</strong> Bayesian Computation with R<br /><strong>Author(s):</strong> Jim Albert<br /><strong>Publisher/Date:</strong> Springer/2009<br /><strong>Statistics level:</strong> High <br /><strong>Programming level:</strong> Low <br /><strong>Overall recommendation:</strong>  Recommended</div> <em>Bayesian Computation with R</em> focuses primarily on providing the reader with a basic understanding of Bayesian thinking and the relevant analytic tools included in R. It does not explore either of those areas in detail, though it does hit the key points for both.
 
 As with many R books, the first chapter is devoted to an introduction of data manipulation and basic analyses in R. This introductory chapter focuses more heavily on analyses that many of the other similarly focused chapters in other texts. The new R user who hasn't yet built up a library of these chapters will find it useful, but for experienced R users or those with multiple R texts, there is little new information.
 
