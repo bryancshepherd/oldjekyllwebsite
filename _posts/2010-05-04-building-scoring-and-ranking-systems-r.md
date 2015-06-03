@@ -14,7 +14,7 @@ Scoring and ranking systems are extremely valuable management tools.  They can b
 <br />
 R is a great tool for building scoring and ranking systems.  It’s a programming language designed for analytical applications with statistical capabilities.  The capability to store and manipulate data in list and table form is built right into the core language.
 &nbsp;
-<!--more-->
+
 But there’s also some validity to the criticism that R provides too many choices and not enough guidance.  The best solution is to share your work with others, so in this article we show a basic design workflow for one such scoring and ranking system that can be applied to many different types of projects.
 <br />
 <strong>The Approach</strong>
