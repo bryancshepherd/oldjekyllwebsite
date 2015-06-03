@@ -5,6 +5,7 @@ date: 2012-08-27 13:06
 author: bryan
 comments: true
 categories: [Book reviews]
+published: false
 ---
 It's difficult to write a book on an entire programming language and keep it manageable and concise, but <em>The Art of R Programming</em> does it as well as any text I've seen. Matloff covers, in detail and among other things, R data structures, programming idioms, performance enhancements, interfaces with other languages, debugging and graphing.
 
