@@ -11,6 +11,7 @@ Animated charts can be very helpful in illustrating concepts or discovering rela
 In this article I'll provide an example of how to use the `animation` package to create an animated chart with a couple of bells and whistles.
 The package installs out-of-the-box with several animations that are tailored for instruction. The examples are of varying complexity ranging from a simple coin flip simulation to illustrations of mathematical problems such as Buffon's needle problem. In most scenarios, however, you'll want to create your own animations, so let's look at how to do that.
 First, there are several different formats in which you can create your animations - GIF, HTML, LaTeX, SWF and mp4. The `saveGIF()` function call below illustrates the generic format for each of the calls:
+
 ```r
 saveGIF({
   for (i in 1:10) plot(runif(10), ylim = 0:1)
