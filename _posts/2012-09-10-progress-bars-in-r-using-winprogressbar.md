@@ -14,7 +14,9 @@ To add progress bars in R scripts use the `winProgressBar` and `setWinProgressBa
 
 Setting up a progress indicator to track the progress of a loop is very straightforward. First, initialize the display:
 
-`pb <- winProgressBar(title="Example progress bar", label="0% done", min=0, max=100, initial=0)`
+```r
+pb <- winProgressBar(title="Example progress bar", label="0% done", min=0, max=100, initial=0)
+```
 
 Use the `title` and `label` options to set the style of the display. The `min` and `max` options should use whatever values are most applicable to your task, but in most cases this will be displaying a percentage so a range of 0 to 100, starting at 0, makes sense.
 
