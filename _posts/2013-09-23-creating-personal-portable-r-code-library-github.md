@@ -5,6 +5,7 @@ date: 2013-09-23 09:29
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 As I discussed in a <a title="R Helper Functions" href="http://www.programmingr.com/content/r-helper-functions/">previous post</a>, I have a few helper functions I've created that I commonly use in my work. Until recently, I manually included these functions at the start of my R scripts by either the tried-and-true copy-and-paste method, or by extracting them from a local file with the `source()` function. The former approach has the benefit of keeping the helper code inextricably attached to the main script, but it adds a good bit of code to wade through. The latter approach keeps the code cleaner, but requires that whoever is running the code always has access to the sourced file and that it is always in the same relative path - and that makes sharing or moving code more difficult. The start of a recent project requiring me to share my helper function library prompted me to find a better solution.
 
