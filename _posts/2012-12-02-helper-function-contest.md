@@ -5,6 +5,7 @@ date: 2012-12-02 20:28
 author: bryan
 comments: true
 categories: [Articles, Site news]
+noindex: true
 ---
 Just in time for the holidays, ProgrammingR is giving you the opportunity to win a gift for yourself or someone who loves R. And in the spirit of the holidays, you'll also be giving back to the R community.
 

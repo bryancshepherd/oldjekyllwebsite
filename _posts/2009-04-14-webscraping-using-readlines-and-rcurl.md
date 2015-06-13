@@ -5,6 +5,7 @@ date: 2009-04-14 22:56
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 
 

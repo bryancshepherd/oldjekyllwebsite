@@ -5,6 +5,7 @@ date: 2012-04-24 15:02
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 
 Animated charts can be very helpful in illustrating concepts or discovering relationships, which makes them very helpful in teaching and exploratory research. Fortunately, creating animated graphs in R is fairly straightforward, once you have the right tools and understand a few basic principles about how the animations are created.

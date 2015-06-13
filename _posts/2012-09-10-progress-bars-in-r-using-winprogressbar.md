@@ -5,6 +5,7 @@ date: 2012-09-10 12:11
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 Using progress bars in R scripts can provide valuable timing feedback during development and additional polish to final products. `winProgressBar` and `setWinProgressBar` are the primary functions for creating progress bars in R.
 

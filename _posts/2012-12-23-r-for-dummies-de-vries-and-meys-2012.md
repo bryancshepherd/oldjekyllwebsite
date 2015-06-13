@@ -6,6 +6,7 @@ author: bryan
 comments: true
 categories: [Book reviews]
 published: false
+noindex: true
 ---
 The <em>for Dummies</em> series has been around since 1991. (A bit of trivia, <em>DOS for Dummies</em> was the first title.) I've owned a few books in the series and have been adequately impressed with most of them, but when I learned there was an <em>R for Dummies</em> I was immediately skeptical. Possibly I was skeptical because R has a steep learning curve and many idiosyncrasies, so the idea of an <em>R for Dummies</em> text seemed oxymoronic - it's difficult to imagine a (successfully) dumbed-down version of an introductory R text. But if you're familiar with the <em>for Dummies</em> series, you already know that the moniker is just for marketing. In reality, these books usually do a good job of distilling a topic down to the important components a new user needs to know. This edition is no exception.
 

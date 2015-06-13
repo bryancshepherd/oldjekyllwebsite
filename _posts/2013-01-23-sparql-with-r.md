@@ -5,6 +5,7 @@ date: 2013-01-23 18:13
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 In this article we'll get up and running on the Semantic Web in less than 5 minutes using SPARQL with R. We'll begin with a brief introduction to the Semantic Web then cover some simple steps for downloading and analyzing government data via a SPARQL query with the SPARQL R package.
 <h3>What is the Semantic Web?</h3>

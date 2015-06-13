@@ -5,6 +5,7 @@ date: 2013-05-13 12:45
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 
 I was recently asked by a client to create a large number of "proof of concept" visualizations that illustrated the power of R for compiling and analyzing disparate datasets. The client was specifically interested in automated analyses of global data. A little research led me to the `WDI` package.
