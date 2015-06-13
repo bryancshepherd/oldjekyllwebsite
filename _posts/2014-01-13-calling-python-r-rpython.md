@@ -5,6 +5,7 @@ date: 2014-01-13 19:23
 author: bryan
 comments: true
 categories: [Articles]
+noindex: true
 ---
 
 Python has generated a good bit of buzz over the past year as an alternative to R. Personal biases aside, an expert makes the best use of the available tools, and sometimes Python is better suited to a task. As a case in point, I recently wanted to pull data via the Reddit API. There isn't an R package that provides easy access to the Reddit API, but there is a very well designed and documented Python module called <a href="https://praw.readthedocs.org/en/latest/" title="Python Reddit API Wrapper">PRAW </a>(or, the Python Reddit API Wrapper). Using this module I was able to develop a Python-based solution to get and analyze the data I needed without too much trouble. 
