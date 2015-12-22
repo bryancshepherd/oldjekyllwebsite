@@ -7,10 +7,6 @@ When switching to a Jekyll/GitHub-based blog I found the available directions fo
 
 For posterity, here is how to set up the Bluehost DNS settings to point to a GitHub blog served from the default user page repository, i.e., `<username>.github.io`. This information is current as of 5-27-2015.
 
-When switching to a Jekyll/GitHub-based blog I found the available directions for setting up the DNS rather unhelpful. In Googling for additional informatino, many of the top search results contradicted each other or were out of date. Additionally, there was nothing specifically related to my hosting provider - Bluehost. 
-
-For posterity, here is how to setup the Bluehost DNS settings to point to a GitHub blog served from the default user page repository, i.e., `<username>.github.io`. This information is current as of 5-27-2015.
-
 #### Edit your CNAME file
 
 Setting up the user page repository is out of scope here, so I'm assuming you have all of that done already. If not, there are a number of Google results that will help you with that.
