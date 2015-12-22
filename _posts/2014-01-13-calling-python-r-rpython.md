@@ -49,16 +49,16 @@ Finally, some R code that calls the Python script and gets the data from the Pyt
 library(rPython)
 
 # Load/run the main Python script
-python.load(&quot;GetNewRedditSubmissions.py&quot;)
+python.load('GetNewRedditSubmissions.py')
 
 # Get the variable
-new_subs_data &lt;- python.get(&quot;new_subs&quot;)
+new_subs_data <- python.get('new_subs')
 
 # Load/run re-fecth script
-python.load(&quot;RefreshNewSubs.py&quot;)
+python.load('RefreshNewSubs.py')
 
 # Get the updated variable
-new_subs_data &lt;- python.get(&quot;new_subs&quot;)
+new_subs_data <- python.get('new_subs')
 
 head(new_subs_data)
 ```
