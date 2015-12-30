@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Setting up Bluehost DNS for a GitHub Jekyll blog
+date: 2015-05-27
+author: bryan
+comments: true
+categories: [Articles]
 ---
 
 When switching to a Jekyll/GitHub-based blog I found the available directions for setting up the DNS rather unhelpful. In Googling for additional information, many of the top search results contradicted each other or were out of date. Additionally, there was nothing specifically related to my hosting provider - Bluehost. 
