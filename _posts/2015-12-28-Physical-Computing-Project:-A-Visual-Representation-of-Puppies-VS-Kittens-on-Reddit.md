@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Visual Representation of Puppies VS Kittens on Reddit
+title: Physical Computing Project: A Visual Representation of Puppies VS Kittens on Reddit
 date: 2015-12-28 
 author: bryan
 comments: true
@@ -17,7 +17,7 @@ In this post I'll cover another project that takes advantage of the Reddit API, 
 
 #### Get data via the Reddit API
 
-Reddit has a very easy to use API, especially in combination with the Python PRAW module, so I use it for a lot of little projects. On top of the easy interface, Reddit is a very popular website, ergo lots of data. For this project I used Python to access the Reddit API and grab frequency counts for mentions of puppies and kittens. As you can see in the code, I acctually used a few canine and feline related terms, but 'puppies' and 'kittens' are where the interest and 'aww' factor is.  
+Reddit has a very easy to use API, especially in combination with the Python PRAW module, so I use it for a lot of little projects. On top of the easy interface, Reddit is a very popular website, ergo lots of data. For this project I used Python to access the Reddit API and grab frequency counts for mentions of puppies and kittens. As you can see in the code, I acctually used a few canine and feline related terms, but 'puppies' and 'kittens' are where the interest and 'aww' factor is.
 
 #### Some frustrations
 
