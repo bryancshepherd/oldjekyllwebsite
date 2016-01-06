@@ -28,7 +28,7 @@ Setting up the RPi GPIO to control the LEDs is beyond the scope of this post. It
 
 And here's a picture of the final setup. I added a cover to disperse the light a little bit and help with some of the issues with using this method of visualization dicussed below:
 
-![Blinky Blinky]({{ site.url }}/images/led.jpg)
+![Blinky Blinky](http://www.bryancshepherd.com/images/led.jpg)
 
 #### Results
 If the Internet is 90% cats, Reddit is an anomaly. Dogs were usually the most popular topic of conversation.
@@ -37,7 +37,7 @@ If the Internet is 90% cats, Reddit is an anomaly. Dogs were usually the most po
 
 I didn't have any breadboard jumper wires to connect the LEDs and I had some difficulty finding them. I had some male-to-male jumpers from an Arduino kit, but connecting an RPi to a breadboard requires female-to-male connectors. I expected Radio Shack to have them, but no luck. Incidentally, an old 40-pin IDE connector will also work with the newer 40-pin RPi GPIOs, but not 80-wire connector. Note that while the headers for these both have 40 sockets and will physically fit onto the RPi board, attempting to use an 80-pin cable will almost certainly break your Pi. If you're not sure which type of cable you have, just count the ridges in the cable from the wires. If you still have wires to count after you get to 40, you can't use that cable. Unless, that is, you want to do what I ultimately did and use individual wires from the cable:
 
-![Disassembling an IDE cable]({{ site.url }}/images/idecable.jpg)
+![Disassembling an IDE cable](http://www.bryancshepherd.com/images/idecable.jpg)
 
 The individual wires of IDE cables are easy to separate and can be stripped with a tight pinch. Because they are single wires, they are easier to manage than if you tried to work with something like speaker wire.
 
