@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Physical Computing Project: A Visual Representation of Puppies VS Kittens on Reddit
+title: Physical Computing - Puppies VS Kittens on Reddit
 date: 2015-12-28
 author: bryan
 comments: true
