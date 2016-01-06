@@ -17,7 +17,7 @@ In this post I'll cover another project that takes advantage of the Reddit API, 
 
 #### Get data via the Reddit API
 
-Reddit has a very easy to use API, especially in combination with the Python PRAW module, so I use it for a lot of little projects. On top of the easy interface, Reddit is a very popular website, ergo lots of data. For this project I used Python to access the Reddit API and grab frequency counts for mentions of puppies and kittens. As you can see in the code ([GitHub repo] (https://github.com/bryancshepherd/PuppiesVSKittens)), I actually used a few canine and feline related terms, but 'puppies' and 'kittens' are where the interest and 'aww' factor is, so I'm sticking with that for the title.
+Reddit has a very easy to use API, especially in combination with the Python PRAW module, so I use it for a lot of little projects. On top of the easy interface, Reddit is a very popular website, ergo lots of data. For this project I used Python to access the Reddit API and grab frequency counts for mentions of puppies and kittens. As you can see in the code ([GitHub repo] (https://github.com/bryancshepherd/PuppiesVSKittens)), I actually used a few canine and feline related terms, but 'puppies' and 'kittens' are where the interest and 'aww' factor are, so I'm sticking with that for the title.
 
 #### Physical Computing
 Physical computing is writing software to control something in the real world. In this case we're manipulating the brightness of two LEDs based on the popularity of our predefined terms on Reddit. It's already commonplace in some areas, but it will be all the rage as the Internet of Things grows and automates.
@@ -25,6 +25,10 @@ Physical computing is writing software to control something in the real world. I
 #### Little Blinky Things
 
 Setting up the RPi GPIO to control the LEDs is beyond the scope of this post. It's also covered better elsewhere than I could do here. Here are a couple of resources you may find helpful:
+
+http://www.instructables.com/id/Easiest-Raspberry-Pi-GPIO-LED-Project-Ever/
+http://www.thirdeyevis.com/pi-page-2.php
+http://raspi.tv/2013/how-to-use-soft-pwm-in-rpi-gpio-pt-2-led-dimming-and-motor-speed-control
 
 And here's a picture of the final setup. I added a cover to disperse the light a little bit and help with some of the issues with using this method of visualization dicussed below:
 
