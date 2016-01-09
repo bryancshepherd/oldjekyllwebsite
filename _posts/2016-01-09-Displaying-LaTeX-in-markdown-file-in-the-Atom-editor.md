@@ -10,7 +10,7 @@ published: true
 ---
 
 #### The Atom Editor
-I've been using the [Atom editor](https://atom.io/) for a few months and I am very pleased with it overall. It doesn't beat well-developed, application/language-specific IDEs such as R-Studio or iPython Notebooks, but for general purpose editing, or in cases where there isn't a strong application-specific IDE (e.g., Julia), it works very well. It has an active development community and that translates into a lot of extensibility. It has robust support for syntax highlighting and markdown editing, including a very helpful live markdown preview. Both of those features make writing markdown with embedded code very easy.
+I've been using the [Atom editor](https://atom.io/) for a few months and I am very pleased with it overall. It doesn't beat well-developed, language-specific IDEs such as R-Studio or iPython Notebooks, but it works very well for general purpose editing and in cases where there isn't a strong IDE available (e.g., Julia). It has an active development community and that translates into a lot of extensibility. It has robust support for syntax highlighting and markdown editing, including a very helpful live markdown preview. Both of those features make writing markdown with embedded code very easy.
 
 However, when I recently tried to include some LaTeX in one of my markdown files I hit a roadblock. Atom doesn't support LaTeX in markdown previews out of the box and the solution took a little longer to find than I think it should have. Ergo, I'm posting this information in hopes that it might help others find the solution faster.
 
