@@ -6,7 +6,7 @@
 name: Bryan Shepherd
 
 # Short bio or description (displayed in the header)
-description: Topics in analytics, statistics, and coding 
+description: Topics in analytics, statistics, and coding
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/bryancshepherd
@@ -57,7 +57,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:title/
 
