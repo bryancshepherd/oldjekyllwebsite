@@ -31,11 +31,9 @@ The analysis of the data was just to get to something that could be displayed on
 
 Where statistics or data manipulation were required they were done with [Scipy](http://www.scipy.org/) and/or [pandas](http://pandas.pydata.org/). The Pearson correlation metric is defined as:
 
-{% raw %}
 $$
 r_{xy} =\frac{\sum ^n_{i=1}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum ^n_{i=1}(x_i - \bar{x})^2} \sqrt{\sum ^n_{i=1}(y_i - \bar{y})^2}}
 $$
-{% endraw %}
 
 But you knew that. I just wanted to add some LaTeX to make this writeup look better.
 
