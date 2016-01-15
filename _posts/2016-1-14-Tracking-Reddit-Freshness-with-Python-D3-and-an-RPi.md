@@ -37,7 +37,7 @@ r_{xy} =\frac{\sum ^n_{i=1}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum ^n_{i=1}(x
 $$
 </div>
 
-But you knew that. I just wanted to add some LaTeX to make this writeup look better.
+but you knew that. I just wanted to add some LaTeX to make this writeup look better.
 
 #### Displaying the data
 D3 is the main workhorse in the data visualization, primarily using SVG. The code is relatively simple, as far as these things go. There are essentially two key code blocks, one for displaying the percent of new articles in r/new, the other for displaying a correlation of article ranks on the front page. Below is a snippet that covers the r/new chart:
