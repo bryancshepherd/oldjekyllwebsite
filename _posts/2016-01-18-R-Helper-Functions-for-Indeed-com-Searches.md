@@ -7,9 +7,6 @@ comment: true
 categories: [Articles]
 published: true
 noindex: false
-output:
-  md_document:
-    variant: markdown_github
 ---
 
 If you need job listing data, Indeed.com is a natural choice. It is one of the most popular job sites on the Internet and has listings from a wide range of industries. Indeed has APIs for things like affiliate widgets, but nothing that allows one to directly download a list of job results. Fortunately, the URL structure and site layout is fairly straighforward and lends itself to webscraping.
