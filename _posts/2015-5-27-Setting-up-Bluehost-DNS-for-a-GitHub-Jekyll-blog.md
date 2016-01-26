@@ -9,16 +9,13 @@ categories: [Articles]
 
 When switching to a Jekyll/GitHub-based blog I found the available directions for setting up the DNS rather unhelpful. In Googling for additional information, many of the top search results contradicted each other or were out of date. Additionally, there was nothing specifically related to my hosting provider - Bluehost.
 
-For posterity, here is how to set up the Bluehost DNS settings to point to a GitHub blog served from the default user page repository, i.e., `<username>.github.io`. This information is current as of 5-27-2015.
+For posterity, here is how to set up Bluehost's DNS settings to point to a GitHub blog served from the default user page repository, i.e., `<username>.github.io`. This information is current as of 5-27-2015.
 
 #### Edit your CNAME file
 
-Setting up the user page repository is out of scope here, so I'm assuming you have all of that done already. If not, there are a number of Google results that will help you with that.
+Setting up the user page repository is out of scope here, so I'm assuming you have done that already. If not, there are a number of Google results that will help you with it.
 
 First, decide whether you want the URL displayed in the address bar to include 'www' or not. This will determine what you need to change on the Bluehost side. There is a whole technical sidebar discussion and set of jargon that we'll avoid here (and that I am not an expert in), but unless you know you want a certain version, you're fine choosing based on preference.
-
-First, decide whether you want the URL displayed in the address bar to include'www' or not. This will determine what you need to change on the Bluehost side. There is a whole technical sidebar discussion and set of jargon that we'll avoid here (and that I am not an expert in), but unless you know you need a certain version, you're fine choosing based on preference.
-
 
 Once you've decided, edit the CNAME file in your `<username>.github.io` repo to match your decision. If you don't already have this file, you will need to create it. This file will have only one line, either:
 
@@ -31,7 +28,7 @@ or:
 
 #### Edit your Bluehost DNS setting
 
-After editing your CNAME file you need to change your DNS settings in Bluehost, by follwing these steps:
+After editing your CNAME file you need to change your DNS settings in Bluehost by follwing these steps:
 
 
 1. Log in to your Bluehost account
@@ -56,4 +53,4 @@ After editing your CNAME file you need to change your DNS settings in Bluehost, 
   6. Repeat to add another GitHub IP address `192.30.252.154`
 
 
-After you've made one set of changes above, give them a few hours to propogate. You can check the status at [What's My DNS](https://www.whatsmydns.net/)
+After you've made one set of changes above, give them a few hours to propagate. You can check the status at [What's My DNS](https://www.whatsmydns.net/)
