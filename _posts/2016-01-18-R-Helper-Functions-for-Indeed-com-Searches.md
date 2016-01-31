@@ -14,6 +14,7 @@ If you need job listing data, Indeed.com is a natural choice. It is one of the m
 The following functions wrap [rvest](https://cran.r-project.org/web/packages/rvest/index.html) capabilities for use on Indeed.com. A write up of the project that required these, including more detailed examples, will follow at some point. For now, I think the use of these functions is straightforward enough without much documentation. If not, email me or ask questions in the comments.
 
 To source just the helper functions you can use:
+
 ``` r
 source("https://raw.githubusercontent.com/bryancshepherd/IndeedJobSearchFunctions/master/jobSearchFunctions.R")
 ```
