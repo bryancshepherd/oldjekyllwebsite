@@ -10,6 +10,7 @@ noindex: false
 ---
 I've re-written this post five times already and haven't been able to get the
 tone right so I'll just stick to the facts:
+
 - Donald Trump said as president he would support [Article XII](http://abcnews.go.com/Politics/donald-trump-hell-protect-constitutions-article-xii/story?id=40422352) of the constitution
 - There is no Article XII of the constitution
 - I love my Amazon Echo
