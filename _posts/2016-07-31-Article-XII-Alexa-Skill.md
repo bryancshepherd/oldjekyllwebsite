@@ -24,6 +24,7 @@ review.
 - There is no chance this skill will pass Amazon's review.
 
 The current hypothetical Article XIIs are:
+
 - Article XII mandates that all dogs must be trained to shoot free throws, in
 the event that such a skill is required to settle an international dispute.
 - Article XII governs the creation, distribution, and taxation of loofahs.
