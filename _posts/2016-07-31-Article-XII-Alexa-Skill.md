@@ -8,9 +8,6 @@ categories: [Articles]
 published: true
 noindex: false
 ---
-
-Article XII Alexa Skill
-
 I've re-written this post five times already and haven't been able to get the
 tone right so I'll just stick to the facts:
 
