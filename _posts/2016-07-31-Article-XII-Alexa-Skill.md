@@ -33,3 +33,6 @@ shall be prohibited.
 - Article XII deems it illegal to carry different denominations of change in the same pocket.
 - Article XII describes the process for making dingy whites all nice and sparkly again.
 - Article XII requires that cats look all apathetic and nonchalant after doing something dumb.
+- Article XII certifies these are not the droids you're looking for.
+- Article XII prohibits making the 'It must be free' joke to cashiers when products
+do not ring up correctly.
