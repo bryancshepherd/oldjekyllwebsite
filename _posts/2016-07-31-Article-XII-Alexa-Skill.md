@@ -8,17 +8,18 @@ categories: [Articles]
 published: true
 noindex: false
 ---
-I've re-written this post five times already and haven't been able to get the
-tone right so I'll just stick to the facts:
+I've redone this post several times already and haven't been able to
+get the tone in line with the rest of the site so I'll just 
+stick to the facts:
 
-- Donald Trump said as president he would support [Article XII](http://abcnews.go.com/Politics/donald-trump-hell-protect-constitutions-article-xii/story?id=40422352) of the constitution
-- There is no Article XII of the constitution
-- I love my Amazon Echo
-- I have been wanting to write a skill for my Amazon Echo (a.k.a. Alexa)
-- I wrote an Alexa skill that describes some things Article XII might cover, if it existed
-- It is mostly based on [this work](http://www.timcarr.net/?p=372) by Tim Carr
+- Donald Trump said as president he would support [Article XII](http://abcnews.go.com/Politics/donald-trump-hell-protect-constitutions-article-xii/story?id=40422352) of the constitution.
+- There is no Article XII of the constitution.
+- I love my Amazon Echo.
+- I have been wanting to write a skill for my Amazon Echo (a.k.a. Alexa).
+- I wrote an Alexa skill that describes some things Article XII might cover, if it existed.
+- It is mostly based on [this work](http://www.timcarr.net/?p=372) by Tim Carr.
 - If you want to submit additional things that Article XII might cover (if it existed) tweet
-them at [@bryancshepherd](https://twitter.com/bryancshepherd) hashtag `#whatisarticleXII` or post them in the comments. I will
+them to [@bryancshepherd](https://twitter.com/bryancshepherd) hashtag `#whatisarticleXII` or post them in the comments. I will
 add them to the next version of the skill if the initial version passes Amazon's
 review.
 - There is no chance this skill will pass Amazon's review.
