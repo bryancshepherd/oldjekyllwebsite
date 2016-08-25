@@ -112,7 +112,7 @@ python3.5 GitHubArt/main.py '$echo "Hi"' '2016-07-31'
 And that's all. The first parameter is the message to display on the GitHub heatmap, the second is the date on which to start typing. Since the GitHub heatmap starts with Sunday at the top, this date should also be a Sunday.
 
 ## Philosophical Implications
-I took a very obvious approach for someone with my background and no artistic talent - I am using the functionality to print out a linux command. [Christo](https://en.wikipedia.org/wiki/Christo_and_Jeanne-Claude) would not be impressed. Honestly, though, the prospect of using this to make art seems really cool. Given that the intensity can differ for each cell in the heatmap, it is essentially as versatile as a grayscale palette. If I had an artistic bone in my body I might give it a shot. For now, I'll just use text and appreciate my simple creations as a Buddhist would, for it's intrinsic and ephemeral beauty.
+I took a very obvious approach for someone with my background and no artistic talent - I am using the functionality to print out a linux command. [Christo](https://en.wikipedia.org/wiki/Christo_and_Jeanne-Claude) would not be impressed. Honestly, though, the prospect of using this to make art seems really cool. Given that the intensity can differ for each cell in the heatmap, it is essentially as versatile as a grayscale palette. If I had an artistic bone in my body I might give it a shot. For now, I'll just use text and appreciate my simple creations as a Buddhist would, for its intrinsic and ephemeral beauty.
 
 *You can find all the project files here:
 [https://github.com/bryancshepherd/GitHubArt](https://github.com/bryancshepherd/GitHubArt)*
