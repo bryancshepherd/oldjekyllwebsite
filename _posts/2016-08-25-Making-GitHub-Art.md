@@ -9,7 +9,6 @@ published: true
 noindex: false
 ---
 
-## Background
 The contribution heatmaps on GitHub profiles are interesting. Although they are intended to be passive data visualizations, they don't have to be. Specifically, they can act as a 7xN pixel -*very slowly*- scrolling display. After realizing this, I decided I had to do something to shape the blank canvas that is my GitHub commit log.
 
 >"An artist is somebody who produces things that people don't need to have."
