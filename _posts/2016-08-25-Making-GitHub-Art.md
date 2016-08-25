@@ -12,7 +12,6 @@ noindex: false
 >"Art is the only serious thing in the world. And the artist is the only person who is never serious."
 ― Oscar Wilde
 
-
 ## Background
 The contribution heatmaps on GitHub profiles are interesting. Although they are intended to be passive data visualizations, they don't have to be. Specifically, they can act as a 7xN pixel *very slowly* scrolling display. Upon making this realization, I decided I had to do something to shape the blank canvas that is my GitHub commit log. It was just like the white train that haunted Ramon in [Beat Street](https://en.wikipedia.org/wiki/Beat_Street).
 
@@ -112,7 +111,7 @@ python3.5 GitHubArt/main.py '$echo "Hi"' '2016-07-31'
 
 And that's all. The first parameter is the message to display on the GitHub heatmap, the second is the date on which to start typing. Since the GitHub heatmap starts with Sunday at the top, this date should also be a Sunday.
 
-#### Philosophical Implications
+## Philosophical Implications
 I took a very obvious approach for someone with my background and no artistic talent - I am using the functionality to print out a linux command. [Christo](https://en.wikipedia.org/wiki/Christo_and_Jeanne-Claude) would not be impressed. Honestly, though, the prospect of using this to make art seems really cool. Given that the intensity can differ for each cell in the heatmap, it is essentially as versatile as a grayscale palette. If I had an artistic bone in my body I might give it a shot. For now, I'll just use text and appreciate my simple creations as a Buddhist would, for it's intrinsic and ephemeral beauty.
 
 *You can find all the project files here:
