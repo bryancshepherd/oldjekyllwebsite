@@ -13,7 +13,7 @@ noindex: false
 ― Oscar Wilde
 
 ## Background
-The contribution heatmaps on GitHub profiles are interesting. Although they are intended to be passive data visualizations, they don't have to be. Specifically, they can act as a 7xN pixel *very slowly* scrolling display. Upon making this realization, I decided I had to do something to shape the blank canvas that is my GitHub commit log. It was just like the white train that haunted Ramon in [Beat Street](https://en.wikipedia.org/wiki/Beat_Street).
+The contribution heatmaps on GitHub profiles are interesting. Although they are intended to be passive data visualizations, they don't have to be. Specifically, they can act as a 7xN pixel -*very slowly*- scrolling display. After realizing this, I decided I had to do something to shape the blank canvas that is my GitHub commit log. It was just like the white train that haunted Ramon in [Beat Street](https://en.wikipedia.org/wiki/Beat_Street).
 
 ## The plan
 Ostensibly, it should be very simple: the color of each cell of the heatmap is based on the number of commits made that day, so one just needs to automate the appropriate number of commits per day to get the desired shading. For simplicity, I decided to start with something that just uses the darkest shade possible - text. There will be some noise in the coloring, because there will be days when no shading is required that I make commits for other projects, but with enough commits on other days it should be fine.
@@ -31,7 +31,7 @@ from github3.py import login
 import time
 
 # Login helper
-# Comma separated redentials are stored
+# Comma separated credentials are stored
 # in the first row of auth.csv.
 def github_login():
     with open('auth/auth.csv', newline='') as f:
