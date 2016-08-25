@@ -9,11 +9,11 @@ published: true
 noindex: false
 ---
 
->"An artist is somebody who produces things that people don't need to have."
-― Andy Warhol
-
 ## Background
 The contribution heatmaps on GitHub profiles are interesting. Although they are intended to be passive data visualizations, they don't have to be. Specifically, they can act as a 7xN pixel -*very slowly*- scrolling display. After realizing this, I decided I had to do something to shape the blank canvas that is my GitHub commit log.
+
+>"An artist is somebody who produces things that people don't need to have."
+― Andy Warhol
 
 ## The plan
 Ostensibly, it should be pretty straightforward. The color of each cell of the heatmap is based on the number of commits made that day, so one just needs to automate the appropriate number of commits per day to get the desired shading. For simplicity, I decided to start by using the darkest shade possible to build some text.
