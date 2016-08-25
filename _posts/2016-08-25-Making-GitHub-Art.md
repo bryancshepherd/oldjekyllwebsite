@@ -2,7 +2,7 @@
 layout: post
 title: "Making GitHub Art"
 author: bryan
-date: 2016-07-25
+date: 2016-08-25
 comment: true
 categories: [Articles]
 published: true
@@ -83,6 +83,7 @@ After creating a way to connect, I needed the code to know *when* to connect. Ba
 Since I was using the heatmap to display text, a matrix-based font seemed to make sense. If you've seen dot-matrix font styles, these will look familiar. Each position in the matrix corresponds to a day on the heatmap. I used values of '1' and '0' to indicate on and off days, respectively. (And technically these are lists, not matrices, but they are laid out like matrices to make them easier to create.)
 
 As an example, here is the setup for the letter 'A':
+
 ``` python
 letters_dict = {
 'A' : [0,1,1,1,0,0,
@@ -103,6 +104,7 @@ Now that I had a way to do commits programmatically and something to commit, I n
 This was achieved with PythonAnywhere.com and a little bash script. Python Anywhere is a python-oriented hosting environment. Among lots of other things, you can use it to schedule python scripts to run at certain times of the day. A free account allows one daily task and http calls to a whitelist of domains. Fortunately, one task is all we need to run and GitHub.com is on the whitelist.
 
 After uploading the python code, I created a really simple bash script that calls the main python script and is scheduled to run daily:
+
 ``` sh
 #!/bin/sh
 python3.5 GitHubArt/main.py '$echo "Hi"' '2016-07-31'
@@ -114,4 +116,4 @@ And that's all. The first parameter is the message to display on the GitHub heat
 I took a very obvious approach for someone with my background and no artistic talent - I am using the functionality to print out a linux command. [Christo](https://en.wikipedia.org/wiki/Christo_and_Jeanne-Claude) would not be impressed. Honestly, though, the prospect of using this to make art seems really cool. Given that the intensity can differ for each cell in the heatmap, it is essentially as versatile as a grayscale palette. If I had an artistic bone in my body I might give it a shot. For now, I'll just use text and appreciate my simple creations as a Buddhist would, for it's intrinsic and ephemeral beauty.
 
 *You can find all the project files here:
-https://github.com/bryancshepherd/GitHubArt*
+[https://github.com/bryancshepherd/GitHubArt](https://github.com/bryancshepherd/GitHubArt)*
