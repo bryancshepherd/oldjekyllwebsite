@@ -10,6 +10,7 @@ noindex: false
 ---
 
 >"Art is the only serious thing in the world. And the artist is the only person who is never serious."
+― Oscar Wilde
 
 
 ## Background
