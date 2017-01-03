@@ -110,17 +110,6 @@ img {
   max-width: 100%;
 }
 
-table {
-	width: 100%;
-	border: 1px solid #ddd;
-}
-
-th {
-	padding: 15px;
-    border-bottom: 1px solid #ddd;
-    color: white;
-}
-
 table.python th {
     background-color: #4CAF50;
 }
@@ -133,6 +122,16 @@ table.rstats th {
     background-color: red;
 }
 
+table {
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th {
+	padding: 15px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
 
 td {
 	padding: 15px;
