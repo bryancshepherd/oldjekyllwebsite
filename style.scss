@@ -118,9 +118,21 @@ table {
 th {
 	padding: 15px;
     border-bottom: 1px solid #ddd;
-    background-color: #4CAF50;
     color: white;
 }
+
+th.python {
+    background-color: #4CAF50;
+}
+
+th.pandas {
+    background-color: orange;
+}
+
+th.rstats {
+    background-color: red;
+}
+
 
 td {
 	padding: 15px;
