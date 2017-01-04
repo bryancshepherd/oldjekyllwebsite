@@ -10,7 +10,7 @@ In the interest of not reinventing the wheel and building on prior successes, th
 {:.python}
 | General Python | |
 | :------------- |:-------------|
-| - [Joining multiple strings from an iterator](http://www.bryancshepherd.com/notes/python/join-multiple-strings-from-an-iterator)     | - [Coming soon](http://www.bryancshepherd.com) | 
+| - [Joining multiple strings from an iterator](http://www.bryancshepherd.com/notes/python/join-multiple-strings-from-an-iterator)     | - [Prettify dates and datetimes easily](http://www.bryancshepherd.com/notes/python/prettify-dates-and-datetimes-easily) | 
 | - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
 
 {:.pandas}
