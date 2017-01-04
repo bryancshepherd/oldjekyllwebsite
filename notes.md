@@ -9,20 +9,18 @@ In the interest of not reinventing the wheel and building on prior successes, th
 
 {:.python}
 | General Python | |
-| :------------- |:-------------| 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
+| :------------- |:-------------|
+| - [Joining multiple strings from an iterator](http://www.bryancshepherd.com/notes/python/join-multiple-strings-from-an-iterator)     | - [Coming soon](http://www.bryancshepherd.com) | 
+| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
 
 {:.pandas}
 | Pandas | |
-| :------------- |:-------------| 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
+| :------------- |:-------------|
+| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
+| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
 
 {:.rstats}
 | R Programming | |
-| :------------- |:-------------| 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
-| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) | 
-
-
+| :------------- |:-------------|
+| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
+| - [Coming soon](http://www.bryancshepherd.com)     | - [Coming soon](http://www.bryancshepherd.com) |
